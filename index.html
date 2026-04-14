@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026 Sinhala & Tamil New Year Calendar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Noto+Sans+Sinhala:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #d32f2f;
+            --secondary: #fbc02d;
+            --background: #fff8e1;
+            --text: #333;
+        }
+        body {
+            font-family: 'Poppins', 'Noto Sans Sinhala', sans-serif;
+            background-color: var(--background);
+            color: var(--text);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .card {
+            background: white;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            max-width: 500px;
+            text-align: center;
+            border-top: 6px solid var(--primary);
+        }
+        h1 {
+            color: var(--primary);
+            margin-bottom: 10px;
+            font-size: 1.8rem;
+        }
+        p {
+            color: #666;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 14px 20px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-sizing: border-box;
+        }
+        .btn-subscribe {
+            background-color: var(--primary);
+            color: white;
+            border: 2px solid var(--primary);
+        }
+        .btn-subscribe:hover {
+            background-color: transparent;
+            color: var(--primary);
+        }
+        .btn-download {
+            background-color: transparent;
+            color: var(--primary);
+            border: 2px solid var(--primary);
+        }
+        .btn-download:hover {
+            background-color: var(--background);
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 0.9rem;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>2026 අලුත් අවුරුදු නැකත්</h1>
+        <h2>Sinhala & Tamil New Year</h2>
+        <p>Easily add the 2026 Auspicious Times (Nekath) to your Google Calendar, Apple Calendar, or Outlook so you never miss a moment.</p>
+        
+        <a href="https://raw.githubusercontent.com/PerZona99/sl-awurudu-calendar/main/aluth_awurudu_2026.ics" class="btn btn-subscribe">
+            📅 Subscribe to Calendar
+        </a>
+        
+        <a href="https://raw.githubusercontent.com/PerZona99/sl-awurudu-calendar/main/aluth_awurudu_2026.ics" class="btn btn-download" download>
+            ⬇️ Download .ics File
+        </a>
+
+        <div class="footer">
+            Times are based on Sri Lanka Standard Time (GMT+5:30)
+        </div>
+    </div>
+
+</body>
+</html>
