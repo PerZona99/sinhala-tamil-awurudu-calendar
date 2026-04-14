@@ -1,0 +1,49 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Sinhala New Year 2026//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+
+BEGIN:VEVENT
+SUMMARY:අලුත් අවුරුදු උදාව (New Year Dawn)
+DTSTART:20260414T093200
+DTEND:20260414T100000
+DESCRIPTION:2026 සිංහල සහ දෙමළ අලුත් අවුරුදු උදාව.
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:පුණ්‍ය කාලය (Punya Kalaya)
+DTSTART:20260414T030800
+DTEND:20260414T155600
+DESCRIPTION:නොනගතය හෙවත් පුණ්‍ය කාලය.
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:ආහාර පිසීම (Cooking)
+DTSTART:20260414T104100
+DTEND:20260414T113000
+DESCRIPTION:ආහාර පිසීමේ නැකත. රක්ත වර්ණ වස්ත්‍රාභරනයෙන්
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:වැඩ ඇල්ලීම, ගනුදෙනු කිරීම සහ ආහාර අනුභවය
+DTSTART:20260414T120500
+DTEND:20260414T130000
+DESCRIPTION:වැඩ ඇල්ලීම, ගනුදෙනු කිරීම සහ ආහාර අනුභවය සඳහා වන නැකත.
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:හිසතෙල් ගෑම (Anointing Oil)
+DTSTART:20260415T065400
+DTEND:20260415T073000
+DESCRIPTION:හිසතෙල් ගෑමේ නැකත. නැගෙනහිර දිශාව බලා.
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:රැකීරක්ෂා සඳහා පිටත්ව යෑම
+DTSTART:20260420T062700
+DTEND:20260420T070000
+DESCRIPTION:අලුත් අවුරුද්දේ රාජකාරී සඳහා පිටත්ව යෑම. දකුණු දිශාව බලා.
+END:VEVENT
+
+END:VCALENDAR
